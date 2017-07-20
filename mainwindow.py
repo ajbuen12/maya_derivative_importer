@@ -59,7 +59,7 @@ class Ui_Form(object):
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
-        Form.setWindowTitle(_translate("Form", "Form", None))
+        Form.setWindowTitle(_translate("Form", "Import Derivative", None))
         self.cb_obj.setText(_translate("Form", "obj", None))
         self.cb_fbx.setText(_translate("Form", "fbx", None))
         self.cb_abc.setText(_translate("Form", "abc", None))
