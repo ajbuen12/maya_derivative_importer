@@ -1,6 +1,7 @@
 
 from PyQt4 import QtGui
 from mainwindow import Ui_Form as Mainwindow_UI
+import os
 import maya.mel as mel
 import maya.cmds as cmds
 import alembic_import as abcImp
